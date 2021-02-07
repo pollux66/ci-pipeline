@@ -23,7 +23,9 @@ pipeline {
         }
 	stage('deploy') {
 	    // some block
+	    steps {
 		echo 'Deployed!'
+            }
 	}
 	}
 }
