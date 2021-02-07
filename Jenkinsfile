@@ -21,9 +21,9 @@ pipeline {
                 sh "mvn test"
             }
         }
+	}
 	stage('deploy') {
 	    // some block
 		echo 'Deployed!'
-	}
 	}
 }
